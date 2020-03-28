@@ -3,6 +3,7 @@ import PublicEditImage from './../image/PublicEditImage'
 import '.././App.css';
 import './Core.css'
 import GoogleAd from './GoogleAd'
+import Instructions from './Instructions'
 
 class Home extends Component {
 
@@ -15,6 +16,7 @@ class Home extends Component {
         <div className="globalCore">
           <GoogleAd/>
           <PublicEditImage/>
+          <Instructions />
           </div>
         
     )

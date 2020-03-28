@@ -7,7 +7,7 @@ import auth from '../auth/auth-helper'
 import Canvas from './Canvas'
 import Controls from './Controls'
 import './Image.css'
-import initialImage from './../assets/owl.jpg'
+import initialImage from './../assets/sample.jpg'
 
 
 class PublicEditImage extends Component {
@@ -193,7 +193,7 @@ return(
 <div className="globalCore">
 <Card bg="dark" text="white" className="imageCard">
 <Card.Header>
-  {this.state.pageObject.title||"owl.jpg"}{printerIcon}
+  {this.state.pageObject.title||"sample.jpg by Lady Bugz on Unsplash"}{printerIcon}
   </Card.Header>
 <Canvas image={this.state.image} pageObject={this.state.pageObject} print={this.state.print} printPage={this.printPage}/>
 <Card.Footer>
