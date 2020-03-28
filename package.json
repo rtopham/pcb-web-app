@@ -1,7 +1,11 @@
 {
-  "name": "mern-skeleton-3.0",
-  "version": "3.0.0",
-  "description": "Skeleton MERN Application",
+  "name": "photo-coloring-books-web-app",
+  "version": "1.0.0",
+  "description": "Web App Version of Photo Coloring Books",
+  "repository": {
+    "type": "git",
+    "url": "https//github.com/rtopham/pcb-web-app"
+  },
   "main": "./dist/server.generated.js",
   "scripts": {
     "development": "nodemon",
@@ -11,7 +15,7 @@
   "keywords": [
     "MERN",
     "React",
-    "Skeleton"
+    "Photo Coloring Books"
   ],
   "author": "Reed Topham",
   "license": "ISC",
@@ -29,12 +33,11 @@
     "@babel/preset-env": "^7.7.1",
     "@babel/preset-react": "^7.7.0",
     "@babel/preset-stage-2": "^7.0.0",
-    "babel-cli": "^6.26.0",
     "babel-loader": "^8.0.6",
     "css-loader": "^3.2.0",
     "file-loader": "^4.2.0",
     "nodemon": "^1.19.4",
-    "webpack": "^4.41.2",
+    "webpack": "4.41.2",
     "webpack-cli": "^3.3.10",
     "webpack-dev-middleware": "^3.7.2",
     "webpack-hot-middleware": "^2.25.0",
