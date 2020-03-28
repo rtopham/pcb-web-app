@@ -1,0 +1,97 @@
+@media all and (min-width: 300px) {
+ 
+  .imageCanvas{
+    margin: auto;
+    max-width: 92%;
+  }
+}
+
+@media all and (min-width: 768px) {
+
+  .imageCanvas{
+    margin: auto;
+    max-width: 98%;
+  }
+
+}
+
+@media all and (min-width: 930px) {
+
+  .imageCanvas{
+    margin: auto;
+    max-width:930px;
+  }
+
+  }
+
+
+.NewImage{
+    float: left;
+    max-height: 25px;
+    max-width: 25px;
+    margin-right: 20px;
+
+  }
+
+  .NewImageFileName{ 
+
+    margin-left: 10px;
+  }
+
+  .NewImage img{
+    max-height: 20px;
+    max-width: 20px;
+
+
+  }
+
+  .NewImage input {
+    display: none;
+  }
+
+  .slider {
+    -webkit-appearance: none;
+/*    max-width: 280px;*/
+    height: 15px;
+/*    margin: 0 auto;*/
+    border-radius: 5px;   
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%; 
+    background: rgb(233, 114, 46);
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: rgb(233, 114, 46);
+    cursor: pointer;
+  }
+  
+  .slider-group{
+  
+  margin-top: 30px;
+  }
+
+  .card.imageCard{
+  display: block;
+  
+  }
+
+
+  .centerchildvert{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }

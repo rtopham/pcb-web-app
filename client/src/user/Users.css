@@ -1,0 +1,74 @@
+ .Signup {
+    padding: 20px 0px 0px 0px;
+    margin: 0 auto;
+    max-width: 400px;
+    
+  }
+
+  @media all and (max-width: 767px) {
+
+    .Signup {
+      padding: 20px 0px 0px 0px;
+      margin: 0 auto;
+      max-width: 98%;
+      
+    }
+  } 
+
+  .Signup form {
+    margin: 0 auto;
+    padding: 20px;
+    
+    min-width: 98%;    
+  }
+
+.Signup form span.help-block {
+  font-size: 14px;
+  padding-bottom: 10px;
+  color: #999;
+}
+
+@media all and (min-width: 580px) {
+ 
+.UserData.list-group-item{
+  width: 40%;
+  }
+
+.UserPhoto.list-group-item{
+    width: 20%;
+    }
+
+  }
+
+.list-group-item img{
+  height:75px;
+  width:50px;
+  
+}
+
+.NewPhoto input {
+  display: none;
+}
+
+.NewPhoto label{
+  cursor:pointer;
+}
+
+.NewPhotoFileName{
+
+  margin-left: 10px;
+}
+
+.PhotoImage{
+  max-height: 100px;
+ 
+}
+
+.upload-photo-buttons{
+  margin-left: 20px;
+}
+
+.upload-photo-error{
+  margin-left: 40px;
+}
+

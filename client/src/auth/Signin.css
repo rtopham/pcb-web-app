@@ -1,0 +1,34 @@
+  .Signin {
+    padding: 20px 0px 0px 0px;
+    margin: 0 auto;
+    max-width: 400px;
+    
+  }
+
+  @media all and (max-width: 767px) {
+
+    .Signin {
+      padding: 20px 0px 0px 0px;
+      margin: 0 auto;
+      max-width: 98%;
+      
+    }
+  } 
+
+  .Signin form {
+    margin: 0 auto;
+    padding: 20px;
+    
+    min-width: 98%;    
+  }
+
+
+.Signin form span.help-block {
+  font-size: 14px;
+  padding-bottom: 10px;
+  color: #999;
+}
+
+.form-text{
+  font-size:100%;
+}
